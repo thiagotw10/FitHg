@@ -92,12 +92,12 @@ header, .navbar{
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
-
+/*botão*/
 .main-btn{
     background-color: #c7f71d;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     width: 200px;
     height: 60px;
@@ -109,7 +109,7 @@ header, .navbar{
 
 .main-btn:hover{
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     border-color: #c7f71d;
 }
@@ -123,11 +123,11 @@ header, .navbar{
 /*sobre empresa*/
 
 #about-area{
-    background-color: #f9f9f9;
+    background-color: #000000;
 }
 
 .main-title{
-    color: #444;
+    color:#c7f71d;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -145,7 +145,7 @@ header, .navbar{
 
 .about-title{
     font-size: 17px;
-    color: #444;
+    color: #c7f71d;
     text-transform: uppercase;
     font-weight: bold;
 }
