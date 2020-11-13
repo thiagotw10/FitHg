@@ -1,10 +1,12 @@
 /*Gerais*/
 
+@media only screen and(max-device-width: 900px){
+    .menu {width: 100%;}
+}
+
 body{
     font-family: 'Roboto', sans-serif;
-    width:90%;
-    margin:auto;
-    
+     
 }
 
 .row{
