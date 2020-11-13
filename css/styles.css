@@ -2,12 +2,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-     
 }
-@media screen and(min-width: 480px){
-    .body {
-        width: 214px;
-    }
+     
 
 .row{
     margin: 0;
@@ -149,3 +145,11 @@ header, .navbar{
     color: #c7f71d;
     margin-right: 15px;
 }
+
+/*Responsivo*/
+
+@media screen and(min-width: 480px){
+    .row {
+        width: 214px;
+     
+    }
