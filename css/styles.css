@@ -82,17 +82,17 @@ header, .navbar{
 #mainSlider .carousel-caption{
     top: 30%;
 }
-
+/*titulo*/
 #mainSlider .carousel-caption h2{
     font-size: 50px;
     margin-bottom: 30px;
 }
-
+/*subtexto*/
 #mainSlider .carousel-caption p{
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 /*botão*/
 .main-btn{
