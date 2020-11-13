@@ -1,176 +1,191 @@
 /*Gerais*/
 
 /* responsivo*/@media screen and (max-width: 576px){
-#bela{
-    height: 800px;
-    width: 400px;
-
-}
-#bela1{
-    height: 800px;
-    width: 400px;
-}
-#bela2{
-    height: 800px;
-    width: 400px;
-}   
-}   
+    #bela{
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+        max-height: 1200px;
+        min-height: 300px;
     
-
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-     
-
-.row{
-    margin: 0;
-}
-
-.container{
-    padding: 70px 0;
-}
-
-p, li{
-    color:#353d41;
-    font-size: 14px;
-}
-/* Barra de navegação */
-header, .navbar{
-    background-color: #c7f71d;
-}
-
-#nav-container{
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#logo{
-    width: 200px;
-}
-
-.navbar-brand{
-    padding: 0;
-    color: rgb(0, 0, 0);
-}
-
-.navbar-brad:hover{
-    color:rgb(0, 0, 0)
-}
-
-#navbar-links a{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding: 1rem .8rem;
-}
-
-
-/*Slider */
-
-.container-fluid {
-    padding: 0;
-}
-
-#mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 100vh;
-}
-
-#mainSlider .carousel-caption{
-    top: 30%;
-}
-/*titulo*/
-#mainSlider .carousel-caption h2{
-    font-size: 50px;
-    margin-bottom: 30px;
-    color: #000000;
-}
-/*subtexto*/
-#mainSlider .carousel-caption p{
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 100px;
-    color: rgb(255, 255, 255);
-}
-/*botão*/
-.main-btn{
-    background-color: #c7f71d;
-    color: #000000;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid transparent;
-    transition: .5s;
-}
-
-.main-btn:hover{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    border-color: #c7f71d;
-}
-
-
-.carousel-indicators .active{
-    background-color: #c7f71d;
-
-}
-
-/*sobre empresa*/
-
-#about-area{
-    background-color: #000000;
-}
-
-.main-title{
-    color:#c7f71d;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.main-title::after{
-    content: "";
-    border-top: 2px solid #c7f71d;
-    width: 15%;
-    position: absolute;
-    top: 60px;
-    left: 42.5%;
-}
-
-.about-title{
-    font-size: 17px;
-    color: #c7f71d;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#about-list{
-    list-style: none;
-    padding-left: 30px;
-}
-
-#about-list li{
-    line-height: 30px;
-
-}
-
-#about-list i{
-    color: #c7f71d;
-    margin-right: 15px;
-}
-
-.navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: #000000;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-}
+    }
+    #bela1{
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+        max-height: 1200px;
+        min-height: 300px;
+    }
+    #bela2{
+        width: 100%;
+        max-width: 800px;
+        height: 100%;
+        max-height: 1200px;
+        min-height: 300px;
+    }   
+    } 
+    #bela, #bela1, #bela2{
+        width: 100%;
+        max-height: 1200px;
+        height: 100%;
+    }  
+        
+    
+    
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+         
+    
+    .row{
+        margin: 0;
+    }
+    
+    .container{
+        padding: 70px 0;
+    }
+    
+    p, li{
+        color:#353d41;
+        font-size: 14px;
+    }
+    /* Barra de navegação */
+    header, .navbar{
+        background-color: #c7f71d;
+    }
+    
+    #nav-container{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    #logo{
+        width: 200px;
+    }
+    
+    .navbar-brand{
+        padding: 0;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navbar-brad:hover{
+        color:rgb(0, 0, 0)
+    }
+    
+    #navbar-links a{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 1rem .8rem;
+    }
+    
+    
+    /*Slider */
+    
+    .container-fluid {
+        padding: 0;
+    }
+    
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: 100vh;
+    }
+    
+    #mainSlider .carousel-caption{
+        top: 30%;
+    }
+    /*titulo*/
+    #mainSlider .carousel-caption h2{
+        font-size: 50px;
+        margin-bottom: 30px;
+        color: #000000;
+    }
+    /*subtexto*/
+    #mainSlider .carousel-caption p{
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 100px;
+        color: rgb(255, 255, 255);
+    }
+    /*botão*/
+    .main-btn{
+        background-color: #c7f71d;
+        color: #000000;
+        text-transform: uppercase;
+        width: 200px;
+        height: 60px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        transition: .5s;
+    }
+    
+    .main-btn:hover{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        border-color: #c7f71d;
+    }
+    
+    
+    .carousel-indicators .active{
+        background-color: #c7f71d;
+    
+    }
+    
+    /*sobre empresa*/
+    
+    #about-area{
+        background-color: #000000;
+    }
+    
+    .main-title{
+        color:#c7f71d;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .main-title::after{
+        content: "";
+        border-top: 2px solid #c7f71d;
+        width: 15%;
+        position: absolute;
+        top: 60px;
+        left: 42.5%;
+    }
+    
+    .about-title{
+        font-size: 17px;
+        color: #c7f71d;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #about-list{
+        list-style: none;
+        padding-left: 30px;
+    }
+    
+    #about-list li{
+        line-height: 30px;
+    
+    }
+    
+    #about-list i{
+        color: #c7f71d;
+        margin-right: 15px;
+    }
+    
+    .navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #000000;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+    
