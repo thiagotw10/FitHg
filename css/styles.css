@@ -149,7 +149,7 @@ header, .navbar{
 /*Responsivo*/
 
 @media screen and(min-width: 480px){
-    .row {
+    .mainSlider {
         width: 214px;
      
     }
